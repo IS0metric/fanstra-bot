@@ -1,0 +1,23 @@
+{
+  "name": "fanstra-bot",
+  "version": "1.0.0",
+  "description": "A bot to support functions in OutsideFanstra",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IS0metric/fanstra-bot.git"
+  },
+  "author": "IS0metric, TechnicallyANerd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IS0metric/fanstra-bot/issues"
+  },
+  "homepage": "https://github.com/IS0metric/fanstra-bot#readme"
+}
