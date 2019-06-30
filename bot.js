@@ -60,7 +60,7 @@ client.on("message", (message) => {
         message.channel.send("Top 10 most played sounds:");
         var resp_string = 'none';
         var http = require('http');
-        http.get('http://www.oxsoundboard.com/api/get_top/', (res) => {
+        http.get('http://www.oxsoundboard.com/api/get_top', (res) => {
           const { statusCode } = res;
           const contentType = res.headers['content-type'];
 
@@ -107,7 +107,7 @@ client.on("message", (message) => {
         message.channel.send(output);
       }
       if (split_message[1] == "link" && split_message.length == 3){
-        var link = path + split_message[2];
+        var link = path + "library/"+ split_message[2];
         message.channel.send(link);
       }
     }
