@@ -41,6 +41,10 @@ client.on("message", (message) => {
     if (message.content.toLowerCase().includes("ellie is great")) {
       message.channel.send("`(Just popping back in to agree, yes, Ellie is great)`");
     }
+
+    if (message.content.toLowerCase().includes("cthulhu")) {
+      message.channel.send("`CthulhuRC IS EVERYWHERE`");
+    }
   }
 });
 
